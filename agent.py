@@ -1,29 +1,31 @@
-# USING OLLAMA
-
+from dotenv import load_dotenv
 from openai import OpenAI
+# from IPython.display import Markdown, display
 
-OLLAMA_BASE_URL = 'http://localhost:11434/v1'
-ollama = OpenAI(base_url=OLLAMA_BASE_URL, api_key="YoooSenpai")
+load_dotenv(override=True)
 
+openai = OpenAI()
 
 firstQuestion="Pick a business area that might be worth exploring for an Agentic AI opportunity"
-response = ollama.chat.completions.create(
-    model="llama3.2",
+response = openai.chat.completions.create(
+    model="gpt-4.1-mini",
     messages=[{"role": "user", "content": firstQuestion}]
 )
 
 firstAns=response.choices[0].message.content
 
-secondQuestion = ollama.chat.completions.create(
-    model="llama3.2",
+secondQuestion = openai.chat.completions.create(
+    model="gpt-4.1-nano",
     messages=[{"role":"user", "content":f"{firstAns}Present pain point of these industries - something challenging that might be ripe for an Agentic Solution"}]
 )
 
 secondAnswer=secondQuestion.choices[0].message.content
 
-thirdQuestion = ollama.chat.completions.create(
-    model="llama3.2",
+thirdQuestion = openai.chat.completions.create(
+    model="gpt-4.1-mini",
     messages=[{"role":"user", "content": f"Propose the agentic AI solution for {secondAnswer}"}]
 )
 
-print(thirdQuestion.choices[0].message.content)
+conclusion = thirdQuestion.choices[0].message.content
+print(conclusion)
+# display(Markdown(conclusion))

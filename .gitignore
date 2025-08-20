@@ -1,0 +1,90 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# -------------------------
+# Environment & Config
+# -------------------------
+# API keys and secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+secrets.json
+config.json
+
+# -------------------------
+# Data, Models & Checkpoints
+# -------------------------
+# Raw / large datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+
+# Model files
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.onnx
+checkpoints/
+models/
+outputs/
+
+# Hugging Face cache
+huggingface/
+~/.cache/huggingface/
+
+# -------------------------
+# Logs & Runtime
+# -------------------------
+*.log
+logs/
+wandb/
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temp files
+*.tmp
+*.swp
+
+# -------------------------
+# Editors & OS Files
+# -------------------------
+# VSCode
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
