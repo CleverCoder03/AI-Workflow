@@ -1,0 +1,1 @@
+This model is a chatbot that collects the data about me (Vishal Mishra) and helps users to chat with me on my personal qualification and experiences. It also used pydantic model where i used gemini-2.0-flash for evaluating a response from the chatbot.
