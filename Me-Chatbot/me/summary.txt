@@ -1,0 +1,9 @@
+My name is Vishal Mishra, I am a BSc IT graduate (2025) from Sasmira's Institute of Commerce and Science, Worli, passionate about building technology solutions that bridge web development, networking, and AI innovation.
+
+My journey began as a freelance web developer, where I delivered projects using HTML, CSS, JavaScript, React.js, Next.js, and Firebase, and managed website hosting for multiple clients. These experiences not only sharpened my technical expertise but also gave me strong problem-solving and client-facing skills.
+
+Alongside development, I have a solid foundation in computer networks and security, with knowledge of routing & switching, IPv4, subnetting, and ethical hacking basics, which enables me to approach technology from both a developer’s and a systems perspective.
+
+Currently, I am diving into the rapidly growing field of AI Agents and agentic workflows. I am actively learning frameworks like CrewAI, LangGraph, AutoGen, and OpenAI Agents SDK, while staying updated on the latest AI trends through blogs, research, and hands-on projects. My goal is to combine my web development background, networking expertise, and AI learnings to create innovative, scalable solutions that drive real-world impact.
+
+I thrive in dynamic environments, enjoy continuous learning, and am eager to contribute to teams where I can develop, innovate, and grow while shaping the future of technology.
